@@ -18,13 +18,11 @@ Program项目仓库
 -定义的方法中应该有符合常理的逻辑判断
 ## 三、核心代码
 1. 方法一
-、、、
-          public void setCPU(CPU c){
-		this.cpu=c;
-	}
-、、、
+                        public void setCPU(CPU c){
+		              this.cpu=c;
+	              }
+------
 2.方法二
-、、、
           public void setHardDisk(HardDisk h){
 		this.hd=h;
 	}
