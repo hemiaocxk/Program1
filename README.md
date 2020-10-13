@@ -18,24 +18,28 @@ Program项目仓库
 -定义的方法中应该有符合常理的逻辑判断
 ## 三、核心代码
 1. 方法一
+```
              public void setCPU(CPU c){
 		this.cpu=c;
 	    }
-
+```
 2.方法二
+```
                                                    public void setHardDisk(HardDisk h){
 		                                         this.hd=h;
 	                                         }
-
+```
 3.方法三
-                                                  public void show(){
+```
+				public void show(){
 		                                      System.out.println("CPU的速度："+cpu.getspeed());
 		                                      System.out.println("CPU的品牌："+cpu.getbrand());
 		                                      System.out.println("硬盘的容量："+hd.getamount());
 	                                              System.out.println("硬盘的颜色："+hd.getcolor());
 	                                        }
-	
+```
 4.方法四
+```
                                                  public int getspeed(){
 		                                         if(speed>0){
 			                                   speed=speed;
@@ -45,7 +49,8 @@ Program项目仓库
 		                                            return speed;
 		
 	                                                 }
-
+							 
+```
 ## 四、实验结果
 运行结果无异常，运行结果如下图
 
