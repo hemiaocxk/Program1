@@ -19,19 +19,19 @@ Program项目仓库
 ## 三、核心代码
 1. 方法一
 、、、
-public void setCPU(CPU c){
+          public void setCPU(CPU c){
 		this.cpu=c;
 	}
 、、、
 2.方法二
 、、、
-public void setHardDisk(HardDisk h){
+          public void setHardDisk(HardDisk h){
 		this.hd=h;
 	}
 、、、
 3.方法三
 、、、
-public void show(){
+          public void show(){
 		System.out.println("CPU的速度："+cpu.getspeed());
 		System.out.println("CPU的品牌："+cpu.getbrand());
 		System.out.println("硬盘的容量："+hd.getamount());
@@ -40,7 +40,7 @@ public void show(){
 、、、
 4.方法四
 、、、
-public int getspeed(){
+          public int getspeed(){
 		  if(speed>0){
 			  speed=speed;
 			}else{
@@ -50,4 +50,6 @@ public int getspeed(){
 		
 	}
 、、、
-## 四、
+## 四、实验结果
+
+  
