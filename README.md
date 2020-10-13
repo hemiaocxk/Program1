@@ -25,34 +25,34 @@ Program项目仓库
 ```
 2.方法二
 ```
-                                                   public void setHardDisk(HardDisk h){
-		                                         this.hd=h;
-	                                         }
+            public void setHardDisk(HardDisk h){
+                this.hd=h;
+	    }
 ```
 3.方法三
 ```
-				public void show(){
-		                                      System.out.println("CPU的速度："+cpu.getspeed());
-		                                      System.out.println("CPU的品牌："+cpu.getbrand());
-		                                      System.out.println("硬盘的容量："+hd.getamount());
-	                                              System.out.println("硬盘的颜色："+hd.getcolor());
-	                                        }
+   	    public void show(){
+	        System.out.println("CPU的速度："+cpu.getspeed());
+                System.out.println("CPU的品牌："+cpu.getbrand());
+                System.out.println("硬盘的容量："+hd.getamount());
+                System.out.println("硬盘的颜色："+hd.getcolor());
+        }
 ```
 4.方法四
 ```
-                                                 public int getspeed(){
-		                                         if(speed>0){
-			                                   speed=speed;
-			                                   }else{
-			                          	System.out.println("Error");
-			                            }
-		                                            return speed;
-		
-	                                                 }
+            public int getspeed(){
+	    if(speed>0){
+              speed=speed;
+          }else{
+  	      System.out.println("Error");
+	      }
+                return speed;		
+             }
 							 
 ```
 ## 四、实验结果
 运行结果无异常，运行结果如下图
 ![图片](https://p.qlogo.cn/qqmail_head/fTW3oLibWre2icgHmMng0BEl2Oia3O6E8xxiaXg7C2hAA8M6qm3kzKsichVPma2ibn16ytVdYoqqCwxkY/0)
-
+## 五、实验感想
+在本次实验中，我体验了private，protected等修饰符在不同包里的作用，虽然有一些小错误，但是也都成功解决了
   
