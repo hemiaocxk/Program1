@@ -23,28 +23,28 @@ Program项目仓库
 	                                         }
 ------
 2.方法二
-          public void setHardDisk(HardDisk h){
-		this.hd=h;
-	}
-------
+                                                   public void setHardDisk(HardDisk h){
+		                                         this.hd=h;
+	                                         }
+
 3.方法三
-          public void show(){
-		System.out.println("CPU的速度："+cpu.getspeed());
-		System.out.println("CPU的品牌："+cpu.getbrand());
-		System.out.println("硬盘的容量："+hd.getamount());
-	  System.out.println("硬盘的颜色："+hd.getcolor());
-	}
-------
+                                                  public void show(){
+		                                      System.out.println("CPU的速度："+cpu.getspeed());
+		                                      System.out.println("CPU的品牌："+cpu.getbrand());
+		                                      System.out.println("硬盘的容量："+hd.getamount());
+	                                              System.out.println("硬盘的颜色："+hd.getcolor());
+	                                        }
+	
 4.方法四
-          public int getspeed(){
-		  if(speed>0){
-			  speed=speed;
-			}else{
-				System.out.println("Error");
-			}
-		return speed;
+                                                 public int getspeed(){
+		                                         if(speed>0){
+			                                   speed=speed;
+			                                   }else{
+			                          	System.out.println("Error");
+			                            }
+		                                            return speed;
 		
-	}
+	                                                 }
 ------
 ## 四、实验结果
 
